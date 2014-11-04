@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		49DAE6A31A09115B000AC210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAE6A21A09115B000AC210 /* AppDelegate.swift */; };
 		49DAE6A61A09115B000AC210 /* ExchangeAGram_ios8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49DAE6A41A09115B000AC210 /* ExchangeAGram_ios8.xcdatamodeld */; };
-		49DAE6A81A09115B000AC210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAE6A71A09115B000AC210 /* ViewController.swift */; };
 		49DAE6AB1A09115B000AC210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DAE6A91A09115B000AC210 /* Main.storyboard */; };
 		49DAE6AD1A09115B000AC210 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DAE6AC1A09115B000AC210 /* Images.xcassets */; };
 		49DAE6B01A09115B000AC210 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49DAE6AE1A09115B000AC210 /* LaunchScreen.xib */; };
 		49DAE6BC1A09115C000AC210 /* ExchangeAGram_ios8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAE6BB1A09115C000AC210 /* ExchangeAGram_ios8Tests.swift */; };
+		49DAE6C61A09139C000AC210 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DAE6C51A09139C000AC210 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		49DAE6A11A09115B000AC210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49DAE6A21A09115B000AC210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DAE6A51A09115B000AC210 /* ExchangeAGram_ios8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeAGram_ios8.xcdatamodel; sourceTree = "<group>"; };
-		49DAE6A71A09115B000AC210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49DAE6AA1A09115B000AC210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49DAE6AC1A09115B000AC210 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		49DAE6AF1A09115B000AC210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		49DAE6B51A09115C000AC210 /* ExchangeAGram-ios8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExchangeAGram-ios8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DAE6BA1A09115C000AC210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49DAE6BB1A09115C000AC210 /* ExchangeAGram_ios8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGram_ios8Tests.swift; sourceTree = "<group>"; };
+		49DAE6C51A09139C000AC210 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 		49DAE69F1A09115B000AC210 /* ExchangeAGram-ios8 */ = {
 			isa = PBXGroup;
 			children = (
+				49DAE6C51A09139C000AC210 /* FeedViewController.swift */,
 				49DAE6A21A09115B000AC210 /* AppDelegate.swift */,
-				49DAE6A71A09115B000AC210 /* ViewController.swift */,
 				49DAE6A91A09115B000AC210 /* Main.storyboard */,
 				49DAE6AC1A09115B000AC210 /* Images.xcassets */,
 				49DAE6AE1A09115B000AC210 /* LaunchScreen.xib */,
@@ -215,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DAE6A81A09115B000AC210 /* ViewController.swift in Sources */,
 				49DAE6A61A09115B000AC210 /* ExchangeAGram_ios8.xcdatamodeld in Sources */,
+				49DAE6C61A09139C000AC210 /* FeedViewController.swift in Sources */,
 				49DAE6A31A09115B000AC210 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
